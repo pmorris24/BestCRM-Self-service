@@ -1,0 +1,18 @@
+/* src/components/InteractiveCrmDashboard.css */
+
+/*
+ * This file provides the layout fix that makes widget content scale vertically.
+*/
+
+.widget-container,
+.widget-container > .sisense-widget,
+.widget-container .sisense-widget-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  flex-grow: 1;
+}
+
+.widget-container .sisense-widget-container > div {
+  flex-grow: 1;
+}
