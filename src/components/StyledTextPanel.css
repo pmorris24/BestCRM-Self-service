@@ -1,0 +1,41 @@
+.styled-text-panel {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 16px;
+  background-color: #f9f9f9;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.styled-text-panel .panel-header {
+  font-weight: bold;
+  margin-bottom: 12px;
+  color: #333;
+}
+
+.styled-text-panel .panel-content {
+  line-height: 1.5;
+}
+
+.styled-text-panel .insights-list {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.insight-item {
+  margin-bottom: 8px;
+}
+
+.insight-text {
+  white-space: pre-wrap;
+}
+
+/* Dark mode support (if your app has a theme toggle) */
+.styled-text-panel.dark {
+  background-color: #1f2937;
+  border-color: #374151;
+  color: #f9fafb;
+}
+
+.styled-text-panel.dark .panel-header {
+  color: #f9fafb;
+}
