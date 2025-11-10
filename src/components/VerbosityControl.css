@@ -1,0 +1,24 @@
+/* src/components/VerbosityControl.css */
+.nlg-controls-wrapper {
+  padding: 10px 1px; /* Updated padding for balanced vertical spacing */
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.nlg-controls-wrapper .MuiFormControlLabel-label {
+  color: var(--text-secondary);
+  font-weight: 600;
+}
+
+.nlg-controls-wrapper .MuiButton-root {
+  background-color: #0059b2; /* Sisense Blue */
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
+.nlg-controls-wrapper .MuiButton-root:hover {
+  background-color: #004a94;
+}
